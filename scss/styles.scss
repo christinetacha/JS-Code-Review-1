@@ -1,0 +1,33 @@
+// box sizing
+
+*:not(body):not(html) {
+  box-sizing: border-box; }
+
+
+// Variables
+
+$purple: #3D315B;
+$yellow: #F8F991;
+$lightGreen: #9AB87A;
+$blue: #444B6E;
+
+.container {
+  width: 100%;
+  font-family: sans-serif;
+  background-color: $purple;
+  height: 100%;
+  h1 {
+    color: $yellow;
+  }
+  .btn {
+    background-color: $purple;
+    color: $yellow;
+    border: 2px solid $yellow;
+    display: block;
+    margin: 15px;
+  }
+  label {
+    color: $yellow;
+    font-size: 16px;
+  }
+}

@@ -1,1 +1,3 @@
-var apiKey = "YOUR-API-KEY-GOES-HERE";
+$(document).ready(function() {
+  console.log("ready!");
+});

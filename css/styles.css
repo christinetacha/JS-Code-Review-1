@@ -1,3 +1,21 @@
+*:not(body):not(html) {
+  box-sizing: border-box; }
 
+.container {
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #3D315B;
+  height: 100%; }
+  .container h1 {
+    color: #F8F991; }
+  .container .btn {
+    background-color: #3D315B;
+    color: #F8F991;
+    border: 2px solid #F8F991;
+    display: block;
+    margin: 15px; }
+  .container label {
+    color: #F8F991;
+    font-size: 16px; }
 
 /*# sourceMappingURL=styles.css.map */
