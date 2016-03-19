@@ -17,9 +17,11 @@
   <body>
     <div class="container">
       <h1>See anyone's Github Respositories!</h1>
-      <label class="label" for="userName">Enter a username:</label>
-      <input id="enterUsername" type="text">
-      <button class="btn" id="weatherLocation">Get public repositories!</button>
+      <form id="getRepos" action="index.html" method="get">
+        <label class="label" for="userName">Enter a username:</label>
+        <input id="enterUsername" type="text" placeholder="search">
+        <button class="btn" type="submit" id="weatherLocation">Get public repositories!</button>
+      </form>
       <div class="showRepos"></div>
     </div>
   </body>
