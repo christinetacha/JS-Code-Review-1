@@ -1,4 +1,7 @@
 $(function() {
-  console.log(exports.getRepos('christinetacha'));
-
+  $('form#getRepos').submit(function(event) {
+    var ghUserName = $('#enterUsername').val();
+    exports.getRepos(ghUserName);
+    event.preventDefault();
+  });
 });
