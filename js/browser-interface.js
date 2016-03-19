@@ -1,4 +1,4 @@
 $(function() {
-  console.log(exports.getRepos());
+  console.log(exports.getRepos('christinetacha'));
 
 });
